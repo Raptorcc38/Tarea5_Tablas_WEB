@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <style type="text/css">
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 10px 5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Ejercicio 6</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Tipo</th>
+                <th colspan="2">AS 13</th>
+                <th colspan="2">AS 22</th>
+                <th colspan="2">AS 30</th>
+                <th colspan="2">AS 40</th>
+                <th colspan="2">AS 47</th>
+                <th colspan="2">AS 62</th>
+                <th>AS 80</th>
+            </tr>
+            <tr>
+                <th>CA13</th>
+                <th>CA16</th>
+                <th>CA22</th>
+                <th>CAW22</th>
+                <th>CA30</th>
+                <th>CAW32</th>
+                <th>CAR40</th>
+                <th>CAW42</th>
+                <th>CAR47</th>
+                <th>CAW47</th>
+                <th>CAR62</th>
+                <th>CAW62</th>
+                <th>CAW80</th>
+            </tr>
+            <tr>
+                <th>Vel. m/s</th>
+                <td colspan="6">30</td>
+                <td colspan="2">20</td>
+                <td colspan="2">10</td>
+                <td colspan="2">5</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Duración</th>
+                <td colspan="6">10.000</td>
+                <td colspan="2">5.000</td>
+                <td colspan="4">2.000</td>
+                <td>1.000</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>30</th>
+                <td>0.7</td>
+                <td>0.8</td>
+                <td>1.6</td>
+                <td>2</td>
+                <td>3.0</td>
+                <td>3.7</td>
+                <td>4.6</td>
+                <td>5.2</td>
+                <td>6.5</td>
+                <td>7.1</td>
+                <td>8.6</td>
+                <td>10.1</td>
+                <td>13.8</td>
+            </tr>
+            <tr>
+                <th>40</th>
+                <td>0.65</td>
+                <td rowspan="2">0.75</td>
+                <td>1.5</td>
+                <td>2.1</td>
+                <td>2.7</td>
+                <td>3.4</td>
+                <td>4.2</td>
+                <td>4.7</td>
+                <td>5.9</td>
+                <td>6.4</td>
+                <td>7.8</td>
+                <td>9.2</td>
+                <td>12.5</td>
+            </tr>
+            <tr>
+                <th>50</th>
+                <td rowspan="2">0.6</td>
+                <td rowspan="2">1.4</td>
+                <td rowspan="2">1.8</td>
+                <td>2.5</td>
+                <td>3.0</td>
+                <td>3.9</td>
+                <td>4.4</td>
+                <td>5.5</td>
+                <td>5.9</td>
+                <td>7.2</td>
+                <td>8.5</td>
+                <td>11.6</td>
+            </tr>
+            <tr>
+                <th>60</th>
+                <td rowspan="4">0.7</td>
+                <td>2.4</td>
+                <td>2.9</td>
+                <td>3.6</td>
+                <td>4.1</td>
+                <td>5.1</td>
+                <td>5.6</td>
+                <td>6.8</td>
+                <td>8.0</td>
+                <td>10.9</td>
+            </tr>
+            <tr>
+                <th>70</th>
+                <td rowspan="2">0.55</td>
+                <td>1.3</td>
+                <td>1.7</td>
+                <td>2.3</td>
+                <td>2.8</td>
+                <td>3.5</td>
+                <td>3.9</td>
+                <td>4.9</td>
+                <td>5.3</td>
+                <td>6.5</td>
+                <td>7.6</td>
+                <td>10.4</td>
+            </tr>
+            <tr>
+                <th>80</th>
+                <td>1.2</td>
+                <td rowspan="2">1.6</td>
+                <td>2.2</td>
+                <td>2.7</td>
+                <td>3.3</td>
+                <td>3.8</td>
+                <td>4.7</td>
+                <td>5.1</td>
+                <td>6.2</td>
+                <td>7.3</td>
+                <td>9.9</td>
+            </tr>
+            <tr>
+                <th>90</th>
+                <td rowspan="2">0.55</td>
+                <td rowspan="2">1.1</td>
+                <td>2.1</td>
+                <td>2.6</td>
+                <td>3.2</td>
+                <td>3.6</td>
+                <td>4.5</td>
+                <td>4.9</td>
+                <td>6.0</td>
+                <td>7.0</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <th>100</th>
+                <td rowspan="2">0.65</td>
+                <td>1.5</td>
+                <td>2.0</td>
+                <td>2.5</td>
+                <td>3.1</td>
+                <td>3.5</td>
+                <td>4.3</td>
+                <td>4.7</td>
+                <td>5.7</td>
+                <td>6.8</td>
+                <td>9.2</td>
+            </tr>
+            <tr>
+                <th>120</th>
+                <td rowspan="5">0.5</td>
+                <td>1</td>
+                <td rowspan="2">1.4</td>
+                <td>1.9</td>
+                <td>2.3</td>
+                <td>2.9</td>
+                <td>3.3</td>
+                <td>4.1</td>
+                <td>4.4</td>
+                <td>5.4</td>
+                <td>6.5</td>
+                <td>8.7</td>
+            </tr>
+            <tr>
+                <th>140</th>
+                <td rowspan="3">0.6</td>
+                <td rowspan="2">0.9</td>
+                <td>1.8</td>
+                <td>2.2</td>
+                <td>2.7</td>
+                <td>3.1</td>
+                <td>3.9</td>
+                <td>4.2</td>
+                <td>5.1</td>
+                <td>6.0</td>
+                <td>8.2</td>
+            </tr>
+            <tr>
+                <th>160</th>
+                <td>1.3</td>
+                <td>1.7</td>
+                <td>2.1</td>
+                <td>2.6</td>
+                <td>3.0</td>
+                <td>3.7</td>
+                <td>4.0</td>
+                <td>4.9</td>
+                <td>5.8</td>
+                <td>7.9</td>
+            </tr>
+            <tr>
+                <th>180</th>
+                <td rowspan="2">0.8</td>
+                <td rowspan="3">1.2</td>
+                <td>1.7</td>
+                <td>2.0</td>
+                <td>2.5</td>
+                <td>2.9</td>
+                <td>3.6</td>
+                <td>3.9</td>
+                <td>4.7</td>
+                <td>5.6</td>
+                <td>7.6</td>
+            </tr>
+            <tr>
+                <th>200</th>
+                <td rowspan="2">0.55</td>
+                <td>1.6</td>
+                <td>1.9</td>
+                <td>2.4</td>
+                <td>2.8</td>
+                <td>3.4</td>
+                <td>3.7</td>
+                <td>4.6</td>
+                <td>5.4</td>
+                <td>7.3</td>
+            </tr>
+            <tr>
+                <th>220</th>
+                <td>0.4</td>
+                <td>0.8</td>
+                <td>1.6</td>
+                <td>1.9</td>
+                <td>2.4</td>
+                <td>2.7</td>
+                <td>3.3</td>
+                <td>3.6</td>
+                <td>4.4</td>
+                <td>5.2</td>
+                <td>7.1</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
